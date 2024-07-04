@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  margin: 5rem 0 2rem 0;
+}
+.output {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 12px;
+  width: 100%;
+  padding: 2rem;
+}
+
+.container-style {
+  width: 100px;
+  height: 100px;
+  border: 1px solid green;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 10px;
+}
